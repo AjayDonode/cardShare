@@ -1,0 +1,7 @@
+{
+  "name": "cardHolder",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
