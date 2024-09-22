@@ -1,0 +1,59 @@
+/* src/pages/Home.css */
+
+
+#profile-info {
+  position: absolute;
+  top: -95px;
+  /* width: 100%; */
+  z-index: 2;
+  text-align: center;
+}
+
+/* .user-profile {
+    text-align: center;
+    padding: 20px;
+    margin-top: 10; 
+    border-radius: 5%;
+    border: 2px solid #4e9df7;
+  } */
+  
+  .avatar {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    width: 70px; /* Adjust size as needed */
+    height: 70px; /* Adjust size as needed */
+    /* border: 1px solid rgb(53, 143, 212); Optional: add a border */
+    box-shadow: 0cqb;
+  }
+  .user-stats {
+    margin-top: 10px;
+  }
+  
+  .user-stats span {
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  .feed {
+    padding: 20px;
+    text-align: left;
+  }
+  
+
+  .fullscreen-div {
+    height: 100vh;     /* Full height of the viewport */
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: space-between; /* Adjusts button spacing */
+    padding: 16px; /* Add some padding */
+  }
+  
+  .card-footer IonButton {
+    flex: 1; /* Makes buttons take equal width */
+    margin: 0 8px; /* Adds margin between buttons */
+  }
+  

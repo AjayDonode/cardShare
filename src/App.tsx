@@ -47,7 +47,7 @@ const App: React.FC = () => {
               <Redirect to="/folder/Inbox" />
             </Route>
             <Route path="/folder/:name" exact={true}>
-              <Page />
+              <Page/>
             </Route>
           </IonRouterOutlet>
         </IonSplitPane>
