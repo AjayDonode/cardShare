@@ -20,6 +20,7 @@ interface AppPage {
   mdIcon: string;
   title: string;
 }
+const currentuser = {name:"Ajay Donode", contact: 4089211874, email:"ajaydonode@gmail.com"}
 
 const appPages: AppPage[] = [
   {
@@ -53,7 +54,7 @@ const Menu: React.FC = () => {
       <IonContent>
         <IonList id="inbox-list">
           <IonListHeader>Inbox</IonListHeader>
-          <IonNote>hi@ionicframework.com</IonNote>
+          <IonNote>{currentuser.email}</IonNote>
           {appPages.map((appPage, index) => {
             return (
               <IonMenuToggle key={index} autoHide={false}>

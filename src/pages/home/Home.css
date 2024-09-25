@@ -19,13 +19,15 @@
   
   .avatar {
     position: absolute;
+    text-align: center;
     top: 0%;
     left: 50%;
     transform: translate(-50%, -75%);
-    width: 70px; /* Adjust size as needed */
-    height: 70px; /* Adjust size as needed */
-    /* border: 1px solid rgb(53, 143, 212); Optional: add a border */
-    box-shadow: 0cqb;
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border: 1px solid rgb(109, 112, 115); 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    --border-radius: 10px;
   }
   .user-stats {
     margin-top: 10px;
@@ -56,4 +58,13 @@
     flex: 1; /* Makes buttons take equal width */
     margin: 0 8px; /* Adds margin between buttons */
   }
+
+  .title {
+    color: rgb(184, 158, 14); /* Warning color */
+    font-weight: bold; /* Bold text */
+}
+
+.contact {
+    color: rgb(184, 158, 14); /* Yellow text for contact */
+}
   
