@@ -1,4 +1,4 @@
-import Cards from '../pages/cards/Cards';
+import CardsPage from '../pages/cards/CardsPage';
 import Collection from '../pages/collection/Collection';
 
 import Home from '../pages/home/Home';
@@ -15,7 +15,7 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
       case 'Home':
         return <Home/>;
       case 'Cards':
-        return <Cards/>;
+        return <CardsPage/>;
       case 'Collection':
         return <Collection/>;
       default:

@@ -4,9 +4,9 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/rea
 const Collection: React.FC = () => (
   
     <p>
-      <h1>Collection List</h1>
-      <h1>Collection List</h1>
-      <h1>Collection List</h1>
+      <h1>Card List</h1>
+      <h1>Card List</h1>
+      <h1>Card List</h1>
     </p>
 
 );

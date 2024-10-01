@@ -30,36 +30,36 @@ const Home: React.FC = () => {
                     </IonAvatar>
                 </IonCardHeader>
                 <IonCardContent>
-                   
+
                     <p>
-                    <br></br>
+                        <br></br>
                         <IonText class='title'>
                             {user.title}
                         </IonText>
                         <br></br>
-                        <IonText  class="contact">
-                           <IonIcon icon={phonePortraitSharp}></IonIcon> {user.contact}
+                        <IonText class="contact">
+                            <IonIcon icon={phonePortraitSharp}></IonIcon> {user.contact}
                         </IonText>
                         <br></br>
                         <IonText class="contact">
-                           <IonIcon icon={locationSharp}></IonIcon> {user.address}
+                            <IonIcon icon={locationSharp}></IonIcon> {user.address}
                         </IonText>
                     </p>
                     <p>
                         {user.description}
                     </p> </IonCardContent>
                 <IonToolbar>
-                    
-                        {/* <br></br> */}
-                        <IonChip>
-                            <IonIcon icon={thumbsUpSharp} color="primary"></IonIcon>
-                            <IonLabel>{user.followers} Boosters</IonLabel>
-                        </IonChip>
-                        <IonChip>
-                            <IonIcon icon={trendingUpOutline} color="primary"></IonIcon>
-                            <IonLabel>{user.following} SatiScore</IonLabel>
-                        </IonChip>
-                   
+
+                    {/* <br></br> */}
+                    <IonChip>
+                        <IonIcon icon={thumbsUpSharp} color="primary"></IonIcon>
+                        <IonLabel>{user.followers} Boosters</IonLabel>
+                    </IonChip>
+                    <IonChip>
+                        <IonIcon icon={trendingUpOutline} color="primary"></IonIcon>
+                        <IonLabel>{user.following} SatiScore</IonLabel>
+                    </IonChip>
+
                     {/* <IonButtons slot="secondary">
                         <IonButton>
                             <IonIcon slot="icon-only" icon={personCircle}></IonIcon>
@@ -77,24 +77,24 @@ const Home: React.FC = () => {
                 </IonToolbar>
             </IonCard>
             <IonFab slot="fixed" vertical="center" horizontal="end">
-          <IonFabButton>
-            <IonIcon icon={shareOutline}></IonIcon>
-          </IonFabButton>
-          <IonFabList side="start">
-            <IonFabButton>
-              <IonIcon icon={link}></IonIcon>
-            </IonFabButton>
-            <IonFabButton>
-              <IonIcon icon={qrCodeOutline}></IonIcon>
-            </IonFabButton>
-            <IonFabButton>
-              <IonIcon icon={printOutline}></IonIcon>
-            </IonFabButton>
-          </IonFabList>
-        </IonFab>
+                <IonFabButton>
+                    <IonIcon icon={shareOutline}></IonIcon>
+                </IonFabButton>
+                <IonFabList side="start">
+                    <IonFabButton>
+                        <IonIcon icon={link}></IonIcon>
+                    </IonFabButton>
+                    <IonFabButton>
+                        <IonIcon icon={qrCodeOutline}></IonIcon>
+                    </IonFabButton>
+                    <IonFabButton>
+                        <IonIcon icon={printOutline}></IonIcon>
+                    </IonFabButton>
+                </IonFabList>
+            </IonFab>
 
         </div>
-        
+
     );
 };
 export default Home;

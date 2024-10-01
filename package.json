@@ -1,5 +1,5 @@
 {
-  "name": "cardHolder",
+  "name": "CardHolder",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -17,10 +17,12 @@
     "@capacitor/haptics": "6.0.1",
     "@capacitor/keyboard": "6.0.2",
     "@capacitor/status-bar": "6.0.1",
+    "@firebase/firestore": "^4.7.2",
     "@ionic/react": "^8.3.1",
     "@ionic/react-router": "^8.3.1",
     "@types/react-router": "^5.1.20",
     "@types/react-router-dom": "^5.3.3",
+    "firebase": "^10.13.2",
     "ionicons": "^7.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -46,5 +48,5 @@
     "vite": "~5.2.0",
     "vitest": "^0.34.6"
   },
-  "description": "An Ionic project"
+  "description": "Share Cards"
 }
