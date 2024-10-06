@@ -1,5 +1,6 @@
 import {initializeApp} from "firebase/app";
 import {getFirestore} from "@firebase/firestore"
+import { getStorage } from 'firebase/storage'; // Import getStorage
 
 const firebaseConfig = {
   apiKey: "AIzaSyDosLEJNUsSf-LzAnCOVyhZcnUkBt0K0Vs",
@@ -13,9 +14,9 @@ const firebaseConfig = {
 };
 
 const firebase = initializeApp(firebaseConfig); 
-//const storage = getStorage(firebase);  
+const storage = getStorage(firebase);  
 const db = getFirestore(firebase);               //database reference
 //const colRef = collection(db, "images"); //collection reference
 //const timeStamp = serverTimestamp(); 
 
-export {  db };
+export {  db, storage };

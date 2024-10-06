@@ -33,6 +33,7 @@ import '@ionic/react/css/palettes/dark.system.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import CardUser from './pages/CardUser/CardUser';
 
 setupIonicReact();
 
@@ -44,7 +45,7 @@ const App: React.FC = () => {
           <Menu />
           <IonRouterOutlet id="main">
             <Route path="/" exact={true}>
-              <Redirect to="/folder/Inbox" />
+              <Redirect to="/folder/Home" />
             </Route>
             <Route path="/folder/:name" exact={true}>
               <Page/>

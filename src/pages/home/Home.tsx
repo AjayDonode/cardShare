@@ -10,7 +10,7 @@ const Home: React.FC = () => {
         title: "Software Services",
         subTitle: null,
         description: "we provide best software solution for small business",
-        contact: 4089211874,
+        phoneNumber: 4089211874,
         address: '1052 S Jacobs Drive, CA - 95391',
         followers: 150,
         following: 75,
@@ -38,7 +38,7 @@ const Home: React.FC = () => {
                         </IonText>
                         <br></br>
                         <IonText class="contact">
-                            <IonIcon icon={phonePortraitSharp}></IonIcon> {user.contact}
+                            <IonIcon icon={phonePortraitSharp}></IonIcon> {user.phoneNumber}
                         </IonText>
                         <br></br>
                         <IonText class="contact">

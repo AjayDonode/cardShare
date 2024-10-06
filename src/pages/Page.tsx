@@ -17,7 +17,6 @@ const Page: React.FC = () => {
           <IonTitle>{name}</IonTitle>
         </IonToolbar>
       </IonHeader>
-
       <IonContent>
         <ExploreContainer name={name} />
       </IonContent>

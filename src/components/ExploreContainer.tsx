@@ -1,4 +1,5 @@
 import CardsPage from '../pages/cards/CardsPage';
+import CardUser from '../pages/CardUser/CardUser';
 import Collection from '../pages/collection/Collection';
 
 import Home from '../pages/home/Home';
@@ -9,7 +10,6 @@ interface ContainerProps {
 }
 
 const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
-
   const renderContent = () => {
     switch (name) {
       case 'Home':
@@ -18,6 +18,8 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
         return <CardsPage/>;
       case 'Collection':
         return <Collection/>;
+      // case 'CardUser':
+      //   return <CardUser/>;
       default:
         return <div>Page Not Found</div>;
     }
